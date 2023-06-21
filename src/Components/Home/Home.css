@@ -1,0 +1,496 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 2rem;
+}
+
+a.active {
+    border-bottom: 2px solid red;
+    /* Adjust the color and style as needed */
+}
+
+.header a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fefeff;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Lato";
+}
+
+.middle a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #414f6b;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Lato";
+}
+
+.text-component h1 p {
+    box-sizing: border-box;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    margin-top: 4rem;
+    font-size: 80px;
+    font-family: "Bebas";
+    line-height: 80px;
+    color: #4d4d4d;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#los {
+    width: 300px;
+
+}
+
+#mount {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    color: #404e6c;
+
+}
+
+#mount span {
+    
+}
+
+.los-container {
+    background: url("../../img/Layer627.png"), url("../../img/mountain-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.los-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../img/mountain-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+
+/* header */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:nth-child(2) {
+
+    margin-left: 10px;
+}
+
+/* Middle */
+
+.footer {
+    background: #fff;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link a:nth-child(2) {
+
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.logo h1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 8px;
+
+}
+
+
+/* History */
+
+
+.history {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.text-container {
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+.number {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: calc(100vw - 134px);
+    font-size: 100px;
+    font-size: 136px;
+    color: #9fa7b5;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 75%
+}
+
+/* #square {
+    position: relative;
+    top: 105px;
+    width: 20px;
+    height: 20px;
+    background-color: #414f6b;
+} */
+
+.text {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#hist {
+    position: relative;
+    right: 30px;
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+
+}
+
+#climb {
+    position: relative;
+    right: 30px;
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.history-para {
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 190px;
+    top: -130px;
+    width: 814px;
+    height: 339px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    word-break: break-word;
+}
+
+.history-container {
+    background-image: url("../../img/peak.png");
+    background-size: cover, cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+/* carousel */
+.carousel {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    background: rgba(65, 79, 107, 0.5);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel div {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel img {
+    text-align: center;
+    align-items: center;
+}
+
+/* team-container */
+
+.history-para1 {
+    position: relative;
+
+    width: 611px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Lato", "sans-serif";
+}
+
+.mountain {
+
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    justify-content: flex-start;
+    background: #414f6b;
+    position: relative;
+}
+
+/* #mountain1 {
+    box-sizing: border-box;
+    margin-left: 6rem;
+    background-color: #8997b2;
+    text-align: center;
+    height: 100%;
+    width: 230px;
+    margin-top: 0;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+#mountain2 {
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 2rem;
+    padding-top: 15px;
+    height: 100%;
+    margin-top: 0;
+    width: 230px;
+    margin-bottom: 0;
+} */
+
+.mountainBgImage {
+    background-image: url("../../img/peak.png");
+    background-size: cover, cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* schedule-container */
+
+.schedule-container {
+    box-sizing: border-box;
+    padding: 20px 0px 0px 80px;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    background: #fff;
+    width: 500px;
+    height: 350px;
+
+}
+
+.schedule-container h1 {
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald", "sans-serif";
+}
+
+.schedule-container .venue {
+    display: flex;
+    flex-direction: row;
+}
+
+.schedule-container .dates,
+.place {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.schedule-container .place {
+    margin-left: 20px;
+}
+
+/* .team-container {
+    position: relative;
+} */
+
+/* footer */
+/* footer */
+/* .footer-container {
+    position: relative;
+} */
+
+footer {
+    position: relative;
+    top: 90vh;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #414f6b;
+}
+
+footer .foot,
+.logo {
+    /* Adjust the padding and other styles as needed */
+
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #63769d;
+    font-family: "Bebas" sans-serif;
+}
+
+/* Media Queries */
+@media (max-width: 799px) {
+    /* CSS rules specific to mobile devices */
+
+    .history-para {
+        width: auto;
+        /* Adjust the width as needed */
+        height: auto;
+        /* Adjust the height as needed */
+        left: 0;
+        /* Adjust the left position as needed */
+        top: 0;
+        /* Adjust the top position as needed */
+    }
+
+    .history-para {
+        width: 72%;
+        height: auto;
+        left: 119px;
+        top: -120px;
+    }
+
+    .carousel {
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* width: 100%; */
+        height: 8vh;
+        /* background: rgba(65, 79, 107, 0.5); */
+        /* align-items: center; */
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    }
+
+    .text-component h1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10rem;
+        font-size: 42px;
+        font-family: "Bebas";
+        line-height: 38px;
+        color: #4d4d4d;
+        width: 100%;
+    }
+
+    .schedule-container {
+        box-sizing: border-box;
+        padding: 20px 0px 0px 80px;
+        position: absolute;
+        top: 140px;
+        left: 53px;
+        background: #fff;
+        width: 411px;
+        height: 366px;
+    }
+
+    /* Add any other mobile-specific styles */
+}
+
+@media (max-width: 390px) {
+    /* CSS rules specific to mobile devices */
+
+    .history-para {
+        width: 79%;
+        height: auto;
+        left: 117px;
+        top: -126px;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+    /* Add any other mobile-specific styles */
+}
+
+@media (max-width: 1200px) {
+    /* CSS rules specific to mobile devices */
+
+    .history-para {
+        width: 79%;
+        height: auto;
+        left: 117px;
+        top: -126px;
+    }
+
+    /* Add any other mobile-specific styles */
+}
