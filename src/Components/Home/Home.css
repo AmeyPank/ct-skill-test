@@ -39,7 +39,6 @@ a.active {
     display: flex;
     text-align: start;
     flex-direction: column;
-    margin-top: 4rem;
     font-size: 80px;
     font-family: "Bebas";
     line-height: 80px;
@@ -50,8 +49,10 @@ a.active {
 }
 
 #los {
-    width: 300px;
-
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
 }
 
 #mount {
@@ -59,11 +60,9 @@ a.active {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
-    color: #404e6c;
+    color: #314571;
 
 }
-
-#mount span {}
 
 .los-container {
     background: url("../../img/Layer627.png"), url("../../img/mountain-bg.png");
@@ -402,16 +401,6 @@ footer .foot,
 @media (max-width: 799px) {
 
 
-    .history-para {
-        width: auto;
-
-        height: auto;
-
-        left: 0;
-
-        top: 0;
-
-    }
 
     .number {
 
@@ -424,12 +413,12 @@ footer .foot,
 
     }
 
-    .history-para {
-        width: 72%;
-        height: auto;
-        left: 119px;
-        top: -120px;
-    }
+.history-para {
+    width: 72%;
+    height: auto;
+    left: 119px;
+    top: -234px;
+}
 
     .carousel {
         height: 10vh;
