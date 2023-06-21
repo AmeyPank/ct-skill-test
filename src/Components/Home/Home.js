@@ -142,7 +142,7 @@ const Home = () => {
                         onChange={(event, index) => handleChangeTab(index)}
                     >
                         <Tab id='tab1' style={{
-                            marginLeft: "80px"
+                            marginLeft: "100px"
                         }} label="MOUNTAIN 1" />
                         <Tab id='tab2' label="MOUNTAIN 2" />
                     </Tabs>
