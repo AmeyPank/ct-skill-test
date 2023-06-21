@@ -63,9 +63,7 @@ a.active {
 
 }
 
-#mount span {
-    
-}
+#mount span {}
 
 .los-container {
     background: url("../../img/Layer627.png"), url("../../img/mountain-bg.png");
@@ -322,7 +320,7 @@ a.active {
 
 .mountainBgImage {
     background-image: url("../../img/peak.png");
-    background-size: cover, cover;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
