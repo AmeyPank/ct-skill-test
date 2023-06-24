@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import "./Home.css"
 import Logo from "../../img/Logo.png"; // Assuming the correct import path for the Logo image
 
@@ -6,7 +6,7 @@ import ClimbMan1 from "../../img/climb-man1.png";
 import ClimbMan from "../../img/climb-man.png";
 import Tab1 from "../../img/tab1.png";
 import Tab2 from "../../img/tab2.png";
-
+// import cropped from "../../img/cropped-curves.png";
 import { Tab, Tabs } from '@mui/material';
 
 const Home = () => {
@@ -60,7 +60,7 @@ const Home = () => {
                                 <span style={{ marginLeft: '4px' }}>S</span>
                             </span>
 
-
+                            {/* <img id='image' src={cropped} alt='cropped' /> */}
 
                         </p>
 
